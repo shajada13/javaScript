@@ -2,6 +2,8 @@
 a = 4 ;
 b = 6 ;
 
+console.log ("a = 4 , b = 6  ")
+
 //(-)
 console.log("a - b = " , a - b ); //(-)operation
 
