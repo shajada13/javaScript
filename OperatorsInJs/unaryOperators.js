@@ -4,6 +4,7 @@
 a = 2 ;
 b = 3 ;
 
+console.log("a = 2, b = 3 ");
 a++;
 
 console.log ("a = ", a); // increment a previous line , then print ; ( ans is 3 );
