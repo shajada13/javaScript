@@ -15,3 +15,17 @@ console.log(message2) //this time output convert tow lines ..
 //"If you want space in your text , then you use \t"
 let message3 = "\t there are space , starting the line ."
 console.log(message3)
+
+// Backticks (`) are used to create template literals in JavaScript.
+// Template literals let you:
+
+// Write multi-line strings
+
+// Insert variables or expressions using ${...}
+
+// Make strings more readable and flexible
+
+let nam = "Masum";
+let mes = `Hello, ${nam}!`;
+console.log(mes);  // "Hello, Masum!"
+

@@ -22,22 +22,27 @@ console.log("3. Remove whitespace \n Ans :",name.trim());   // "HI"
 // The slice() method returns a shallow copy of a portion of a string or array, selected from start to end (end not included).
 //  The original string or array is not modified.
 let text = "JavaScript";
-console.log(text)
+console.log("4. " , text)
 let part = text.slice(0, 4);
-console.log("slice this text " , part);  // "Java"
+console.log(" slice this text " , part);  // "Java"
 
 //The concat() method is used to join (combine) two or more strings or arrays. 
 // It returns a new string or array — the original is not changed.
 let firstName = "Masum";
 let lastName = "Mia";
 let fullName = firstName.concat(" ", lastName);
-console.log( " First name is Masum and second name is Mia , concat \n Ans : " ,fullName);  // "Masum Mia"
+console.log( " 5. First name is Masum and second name is Mia , concat \n Ans : " ,fullName);  // "Masum Mia"
 
 // The replace() method returns a new string where part of the original string is replaced with another value. 
 // It does not change the original string.
-let str = "apple banana apple";
+let str = " apple banana apple";
 let replaced = str.replace(/apple/g, "orange");
-console.log(  "apple banana apple , replace \n  Ans : ", replaced);  // "orange banana orange"
+console.log(  "6 . apple banana apple , replace \n  Ans : ", replaced);  // "orange banana orange"
 
 
 //The charAt() method returns the character at a specific position (index) in a string.
+let namee = "Masum";
+console.log(" 7. charAT")
+console.log(namee.charAt(0));  // "M"
+console.log(namee.charAt(2));  // "s"
+console.log(namee.charAt(10)); // "" (empty string, index is out of range)
