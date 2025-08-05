@@ -24,7 +24,7 @@ console.log(message3)
 // Insert variables or expressions using ${...}
 
 // Make strings more readable and flexible
-
+console.log ("Back tick ")
 let nam = "Masum";
 let mes = `Hello, ${nam}!`;
 console.log(mes);  // "Hello, Masum!"
